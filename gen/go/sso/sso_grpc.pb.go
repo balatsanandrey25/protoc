@@ -4,6 +4,9 @@
 // - protoc             v5.28.3
 // source: sso/sso.proto
 
+// protoc -I proto proto/sso/sso.proto --go_out=./gen/go --go_opt=paths=source_relative --go-grpc_out=./gen/go --go-grpc_opt=paths=source_relative
+// git tag v0.0.1
+
 package ssoc1
 
 import (
